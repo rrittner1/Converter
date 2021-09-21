@@ -3,8 +3,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class EntryField extends JTextField implements ActionListener{//text entry fields
-    MainFrame frame;
-    int position;
+    private MainFrame frame;
+    private int position;
     public EntryField(int i) {
         super();
         addActionListener(this);
